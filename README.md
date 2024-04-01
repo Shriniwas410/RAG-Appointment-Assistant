@@ -58,6 +58,7 @@ Run the script using Python:
 ```
 python RAG-Appointment-Assistant.py
 ```
+Additionally, you can add the variable in the RAG-Appointment-Assistant.ipynb notebook and run it in Google Colab.
 
 ## How It Works
 
@@ -67,6 +68,3 @@ The application makes a request to a public API to fetch available appointment s
 
 Contributions are welcome! Please feel free to submit a pull request.
 
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
