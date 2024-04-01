@@ -58,6 +58,7 @@ Run the script using Python:
 ```
 python RAG-Appointment-Assistant.py
 ```
+Additionally, you can add the variable in the RAG-Appointment-Assistant.ipynb notebook and run it in Google Colab.
 
 ## How It Works
 
