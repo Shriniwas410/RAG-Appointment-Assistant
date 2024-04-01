@@ -68,6 +68,3 @@ The application makes a request to a public API to fetch available appointment s
 
 Contributions are welcome! Please feel free to submit a pull request.
 
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
