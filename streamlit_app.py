@@ -8,10 +8,10 @@ stores them in MongoDB, and uses natural language processing to answer queries a
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mongodb-developer/GenAI-Showcase/blob/main/notebooks/rag/rag_with_hugging_face_gemma_mongodb.ipynb)
 """
 
-!pip install datasets pandas pymongo sentence_transformers
-!pip install -U transformers
-# Install below if using GPU
-!pip install accelerate
+# !pip install datasets pandas pymongo sentence_transformers
+# !pip install -U transformers
+# # Install below if using GPU
+# !pip install accelerate
 
 # Import necessary libraries
 import requests
