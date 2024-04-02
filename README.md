@@ -1,6 +1,17 @@
-# RAG-Appointment-Assistant
+# Local Deployment of LLM with RAG for Enhanced Query Processing
 
-The RAG Appointment Assistant is a Python application that integrates MongoDB with Hugging Face's transformers and sentence transformers libraries to create an intelligent appointment assistant. It fetches available appointment slots from a public API, stores them in MongoDB, and uses natural language processing to answer queries about available appointments.
+This project showcases the local deployment of Google Gemma LLM [google/gemma2-b](https://huggingface.co/google/gemma-2b) with Retrieval-Augmented Generation (RAG) for advanced query processing capabilities. By integrating MongoDB with Hugging Face's transformers and sentence transformers libraries, this Python application leverages the power of Google Gemma to fetch and store data from a public API. It then utilizes a locally hosted Google Gemma model within a RAG framework to process and answer complex queries with high accuracy and relevance.
+
+## Overview
+
+The core of this project is the innovative use of the Retrieval-Augmented Generation (RAG) technique, which combines the strengths of retrieval-based and generative NLP models. By deploying the Google Gemma model locally, we achieve greater control and efficiency in processing queries specifically tailored to finding driver's license appointments for the Texas Department of Public Safety. This setup not only enhances the system's ability to understand and generate natural language responses but also significantly improves the speed and reliability of query processing by leveraging local computational resources. This targeted deployment showcases a practical application of advanced NLP techniques to streamline the appointment discovery process, making it easier for users to find available slots.
+
+## Key Features
+
+- **Local Deployment of Google Gemma**: Utilizes the advanced capabilities of Google Gemma for generating natural language responses, hosted locally to ensure local isolated response and data privacy.
+- **Integration with MongoDB**: Seamlessly fetches and stores data from a public API into MongoDB, enabling efficient data retrieval and management.
+- **Retrieval-Augmented Generation**: Employs the RAG framework to enhance the query processing mechanism, combining the benefits of both retrieval-based and generative models for superior accuracy and relevance in responses.
+- **Dynamic Model Support**: This deployment is dynamic and can be adapted to use any models available on Hugging Face, providing flexibility to leverage different NLP capabilities as needed.
 
 # Prerequisites
 
